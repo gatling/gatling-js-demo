@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "target",
+    "lib": ["es2021", "dom"],
+    "target": "es2021",
+//    "module": "node16",
+//    "moduleResolution": "node16",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+//    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/*.test.ts"]
+}
