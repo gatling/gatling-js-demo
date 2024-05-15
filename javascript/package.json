@@ -1,15 +1,15 @@
 {
   "name": "gatling-js-demo",
-  "version": "0.1.1",
+  "version": "3.11.2",
   "private": true,
   "type": "module",
   "main": "target/bundle",
   "dependencies": {
-    "@gatling.io/core": "0.1.2",
-    "@gatling.io/http": "0.1.2"
+    "@gatling.io/core": "3.11.2",
+    "@gatling.io/http": "3.11.2"
   },
   "devDependencies": {
-    "@gatling.io/cli": "0.1.2",
+    "@gatling.io/cli": "3.11.2",
     "prettier": "3.2.5",
     "rimraf": "5.0.7"
   },
