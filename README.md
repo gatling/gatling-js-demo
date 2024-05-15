@@ -7,7 +7,7 @@ A simple showcase of JavaScript and TypeScript NPM projects using Gatling JS.
 
 ```shell
 cd typescript # or 'cd javascript'
-npm ci
+npm install
 npm run start # automatically download Gatling runtime, build the project, and run the simulation
 ```
 

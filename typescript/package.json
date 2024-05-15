@@ -5,13 +5,13 @@
   "type": "module",
   "main": "target/bundle",
   "dependencies": {
-    "@gatling.io/core": "0.1.1",
-    "@gatling.io/http": "0.1.1"
+    "@gatling.io/core": "0.1.2",
+    "@gatling.io/http": "0.1.2"
   },
   "devDependencies": {
-    "@gatling.io/cli": "0.1.1",
+    "@gatling.io/cli": "0.1.2",
     "prettier": "3.2.5",
-    "rimraf": "5.0.5",
+    "rimraf": "5.0.7",
     "typescript": "5.4.5"
   },
   "scripts": {

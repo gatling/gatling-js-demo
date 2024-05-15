@@ -1,6 +1,6 @@
 import {
+  simulation,
   scenario,
-  runSimulation,
   exec,
   csv,
   pause,
@@ -12,7 +12,7 @@ import {
 } from "@gatling.io/core";
 import { http, status } from "@gatling.io/http";
 
-const mySimulation = runSimulation((setUp) => {
+simulation((setUp) => {
   const feeder = csv("search.csv").random();
 
   const search = exec(
@@ -77,5 +77,3 @@ const mySimulation = runSimulation((setUp) => {
     admins.injectOpen(rampUsers(2).during(10))
   ).protocols(httpProtocol);
 });
-
-export default mySimulation;
