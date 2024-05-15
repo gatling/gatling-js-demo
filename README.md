@@ -1,9 +1,8 @@
-Gatling JS - JavaScript and TypeScript demo projects
-============================================
+# Gatling JS - JavaScript and TypeScript demo projects
 
 A simple showcase of JavaScript and TypeScript NPM projects using Gatling JS.
 
-# Use demo project
+## Use demo project
 
 ```shell
 cd typescript # or 'cd javascript'
@@ -12,6 +11,7 @@ npm run start # automatically download Gatling runtime, build the project, and r
 ```
 
 Other commands:
+
 ```shell
 npm run format # Format code with prettier
 npm run check # TypeScript project only, type check but don't build or run
