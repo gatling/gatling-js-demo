@@ -12,7 +12,7 @@ import {
 } from "@gatling.io/core";
 import { http, status } from "@gatling.io/http";
 
-simulation((setUp) => {
+export default simulation((setUp) => {
   const feeder = csv("search.csv").random();
 
   const search = exec(

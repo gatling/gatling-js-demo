@@ -5,11 +5,11 @@
   "type": "module",
   "main": "target/bundle",
   "dependencies": {
-    "@gatling.io/core": "3.11.2",
-    "@gatling.io/http": "3.11.2"
+    "@gatling.io/core": "3.11.3-M1",
+    "@gatling.io/http": "3.11.3-M1"
   },
   "devDependencies": {
-    "@gatling.io/cli": "3.11.2",
+    "@gatling.io/cli": "3.11.3-M1",
     "prettier": "3.2.5",
     "rimraf": "5.0.7",
     "typescript": "5.4.5"
@@ -18,7 +18,7 @@
     "clean": "rimraf target results",
     "format": "prettier --write '**/*.ts'",
     "check": "tsc --noEmit",
-    "build": "tsc --noEmit && gatling-js-cli build --typescript",
-    "start": "tsc --noEmit && gatling-js-cli run --typescript"
+    "build": "tsc --noEmit && gatling build --typescript",
+    "start": "tsc --noEmit && gatling run --typescript --simulation computerdatabase"
   }
 }
