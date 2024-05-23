@@ -15,7 +15,7 @@
   },
   "scripts": {
     "clean": "rimraf target",
-    "format": "prettier --write '**/*.js'",
+    "format": "prettier --write \"**/*.js\"",
     "build": "gatling build",
     "recorder": "gatling recorder",
     "computerdatabase": "gatling run --simulation computerdatabase"
