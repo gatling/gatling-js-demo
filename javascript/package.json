@@ -14,10 +14,10 @@
     "rimraf": "5.0.7"
   },
   "scripts": {
-    "clean": "rimraf target results tmp",
+    "clean": "rimraf target",
     "format": "prettier --write '**/*.js'",
     "build": "gatling build",
-    "start": "gatling run --simulation computerdatabase",
-    "recorder": "gatling recorder"
+    "recorder": "gatling recorder",
+    "computerdatabase": "gatling run --simulation computerdatabase"
   }
 }
