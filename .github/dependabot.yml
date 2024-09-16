@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/javascript"
+    labels:
+      - "dependencies"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+  - package-ecosystem: "npm"
+    directory: "/typescript"
+    labels:
+      - "dependencies"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
