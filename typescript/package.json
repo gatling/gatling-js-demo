@@ -12,7 +12,7 @@
     "@gatling.io/cli": "3.12.0",
     "prettier": "3.3.3",
     "rimraf": "6.0.1",
-    "typescript": "5.5.4"
+    "typescript": "5.6.3"
   },
   "scripts": {
     "clean": "rimraf target",
