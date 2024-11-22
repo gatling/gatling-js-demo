@@ -7,6 +7,10 @@ updates:
     schedule:
       interval: "weekly"
       day: "sunday"
+    groups:
+      gatling:
+        patterns:
+          - "@gatling.io/*"
   - package-ecosystem: "npm"
     directory: "/typescript"
     labels:
@@ -14,3 +18,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "sunday"
+    groups:
+      gatling:
+        patterns:
+          - "@gatling.io/*"
