@@ -5,11 +5,11 @@
   "type": "module",
   "main": "target/bundle",
   "dependencies": {
-    "@gatling.io/core": "3.13.400",
-    "@gatling.io/http": "3.13.400"
+    "@gatling.io/core": "3.13.401",
+    "@gatling.io/http": "3.13.401"
   },
   "devDependencies": {
-    "@gatling.io/cli": "3.13.400",
+    "@gatling.io/cli": "3.13.401",
     "prettier": "3.5.0",
     "rimraf": "6.0.1",
     "typescript": "5.7.3"
