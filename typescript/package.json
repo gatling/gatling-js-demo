@@ -20,6 +20,6 @@
     "check": "tsc --noEmit",
     "build": "tsc --noEmit && gatling build --typescript",
     "recorder": "gatling recorder --typescript",
-    "computerdatabase": "tsc --noEmit && gatling run --typescript --simulation computerdatabase"
+    "basicSimulation": "tsc --noEmit && gatling run --typescript --simulation basicSimulation"
   }
 }
