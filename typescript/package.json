@@ -1,15 +1,15 @@
 {
   "name": "gatling-ts-demo",
-  "version": "3.14.100",
+  "version": "3.14.101",
   "private": true,
   "type": "module",
   "main": "target/bundle",
   "dependencies": {
-    "@gatling.io/core": "3.14.100",
-    "@gatling.io/http": "3.14.100"
+    "@gatling.io/core": "3.14.101",
+    "@gatling.io/http": "3.14.101"
   },
   "devDependencies": {
-    "@gatling.io/cli": "3.14.100",
+    "@gatling.io/cli": "3.14.101",
     "prettier": "3.5.3",
     "rimraf": "6.0.1",
     "typescript": "5.8.3"
