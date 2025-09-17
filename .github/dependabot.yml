@@ -1,19 +1,9 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/javascript"
-    labels:
-      - "dependencies"
-    schedule:
-      interval: "weekly"
-      day: "monday" # explicit, even tough it's the weekly default
-      time: "07:00" # UTC
-    groups:
-      gatling:
-        patterns:
-          - "@gatling.io/*"
-  - package-ecosystem: "npm"
-    directory: "/typescript"
+    directories:
+      - "/javascript"
+      - "/typescript"
     labels:
       - "dependencies"
     schedule:
