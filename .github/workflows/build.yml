@@ -1,0 +1,45 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      JAVA_OPTS: "-Xmx4G"
+      SBT_OPTS: "-Dsbt.ci=true"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 20
+
+      - name: Build JavaScript
+        working-directory: javascript
+        run: |
+          npm ci
+          npm run format-check
+          npm run build
+
+      - name: Build TypeScript
+        working-directory: typescript
+        run: |
+          npm ci
+          npm run format-check
+          npm run build

@@ -1,6 +1,6 @@
 {
   "name": "gatling-ts-demo",
-  "version": "3.14.306",
+  "version": "3.14.400",
   "private": true,
   "type": "module",
   "main": "target/bundle",
@@ -16,7 +16,8 @@
   },
   "scripts": {
     "clean": "rimraf target",
-    "format": "prettier --write \"**/*.ts\"",
+    "format": "prettier --write '**/*.ts'",
+    "format-check": "prettier --check '**/*.ts'",
     "check": "tsc --noEmit",
     "build": "tsc --noEmit && gatling build --typescript",
     "recorder": "gatling recorder --typescript",

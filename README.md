@@ -44,6 +44,7 @@ Note that both sample projects include a few aliases in the `package.json`'s `sc
 ```shell
 npm run clean # Delete Gatling bundled code and generated reports
 npm run format # Format code with prettier
+npm run format-check # Format code check with prettier
 npm run check # TypeScript project only, type check but don't build or run
 npm run build # Build project but don't run
 npm run basicSimulation # Run the included basicSimulation simulation

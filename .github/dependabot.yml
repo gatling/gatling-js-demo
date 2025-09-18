@@ -1,16 +1,24 @@
 version: 2
 updates:
+  - package-ecosystem: "github-actions"
+    commit-message:
+      prefix: "chore"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday" # explicit, even though it's the weekly default
+      time: "07:00" # UTC
   - package-ecosystem: "npm"
+    commit-message:
+      prefix: "chore"
     directories:
       - "/javascript"
       - "/typescript"
-    labels:
-      - "dependencies"
-    schedule:
-      interval: "weekly"
-      day: "monday" # explicit, even tough it's the weekly default
-      time: "07:00" # UTC
     groups:
       gatling:
         patterns:
           - "@gatling.io/*"
+    schedule:
+      interval: "weekly"
+      day: "monday" # explicit, even tough it's the weekly default
+      time: "07:00" # UTC
