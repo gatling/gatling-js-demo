@@ -1,6 +1,6 @@
 {
   "name": "gatling-js-demo",
-  "version": "3.14.500",
+  "version": "3.14.703",
   "private": true,
   "type": "module",
   "main": "target/bundle",
