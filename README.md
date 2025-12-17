@@ -4,7 +4,7 @@ A simple showcase of JavaScript and TypeScript NPM projects using Gatling JS. Pl
 
 ## Prerequisites
 
-You need [Node.js](https://nodejs.org/en/download) v18 or later (LTS versions only) and npm v8 or later (included with Node.js).
+You need [Node.js](https://nodejs.org/en/download) v20 or later (LTS versions only) and npm v10 or later (included with Node.js).
 
 ## Use demo project
 
