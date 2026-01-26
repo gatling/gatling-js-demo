@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@gatling.io/cli": "3.14.905",
-    "prettier": "3.8.0",
+    "prettier": "3.8.1",
     "rimraf": "6.1.2"
   },
   "scripts": {
