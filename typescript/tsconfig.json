@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "target",
-    "lib": ["es2021", "dom"],
-    "target": "es2021",
-    "module": "es2020",
-    "moduleResolution": "Node",
+    "outDir": "./target",
+    "lib": ["es2023", "dom"],
+    "target": "es2024",
+    "module": "nodenext",
+    "moduleResolution": "node16",
     "strict": true,
     "forceConsistentCasingInFileNames": true
   },
